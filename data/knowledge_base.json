@@ -1,0 +1,7 @@
+{
+  "wifi not working": "Restart your router, reconnect to the Wi-Fi network, and ensure your device is not in Airplane mode.",
+  "computer slow": "Close unused applications and browser tabs, restart your computer, and check for background updates.",
+  "printer offline": "Ensure the printer is turned on and connected to the same network. Check for paper jams or empty ink, and restart the print spooler service.",
+  "cannot login": "Verify you are using the correct username and password, ensure Caps Lock is off, and try resetting your password via the IT portal.",
+  "vpn not connecting": "Check your internet connection, verify your VPN credentials are correct, and restart the VPN client application."
+}
