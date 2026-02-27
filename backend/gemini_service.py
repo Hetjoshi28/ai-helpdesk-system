@@ -34,6 +34,8 @@ def get_gemini_response(user_message):
         )
         return response.text
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         print(f"Gemini API Error: {e}")
         return "UNRESOLVED"
 
