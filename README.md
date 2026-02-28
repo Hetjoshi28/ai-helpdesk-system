@@ -48,5 +48,16 @@ ai-helpdesk-system
 └── README.md
 ```
 
-<img width="327" height="690" alt="Side bar" src="https://github.com/user-attachments/assets/cad5e2b0-c3e4-48e2-8722-fd89313f7abd" />
+sign up page
+<img width="1165" height="671" alt="Sign up page" src="https://github.com/user-attachments/assets/ba897829-aee1-4973-94e1-41850a407c84" />
+
+Log in page
+<img width="1184" height="691" alt="Login page" src="https://github.com/user-attachments/assets/67b6378e-9059-4179-add0-ef21de6e64c1" />
+
+IT- Chat bot page
+<img width="1370" height="774" alt="IT-Chat bot page" src="https://github.com/user-attachments/assets/61c444d3-bc44-4090-8b28-358af7c2abce" />
+
+
+
+
 
