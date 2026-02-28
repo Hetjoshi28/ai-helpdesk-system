@@ -48,10 +48,9 @@ ai-helpdesk-system
 └── README.md
 ```
 
+
+
  📸 Project Screenshots
-
-
-## 📸 Project Screenshots
 
 <p align="center">
 
@@ -73,10 +72,6 @@ ai-helpdesk-system
 
 <a href="Chat pro page.png">
 <img src="Chat pro page.png" width="30%" alt="ChatPro"/>
-</a>
-
-<a href="Side bar.png">
-<img src="Side bar.png" width="30%" alt="Sidebar"/>
 </a>
 
 </p>
