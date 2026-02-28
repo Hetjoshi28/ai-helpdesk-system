@@ -47,3 +47,6 @@ ai-helpdesk-system
 ├── requirements.txt
 └── README.md
 ```
+
+<img width="327" height="690" alt="Side bar" src="https://github.com/user-attachments/assets/cad5e2b0-c3e4-48e2-8722-fd89313f7abd" />
+
