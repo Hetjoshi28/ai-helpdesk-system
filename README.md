@@ -51,33 +51,32 @@ ai-helpdesk-system
  📸 Project Screenshots
 
 
-<table>
-<tr>
-<td align="center">
-Login Page<br>
-<img src="images/login.png" width="260">
-</td>
+## 📸 Project Screenshots
 
-<td align="center">
-Sign Up Page<br>
-<img src="images/signup.png" width="260">
-</td>
+<p align="center">
 
-<td align="center">
-Chatbot Page<br>
-<img src="images/chatbot.png" width="260">
-</td>
-</tr>
+<a href="Login page.png">
+<img src="Login page.png" width="30%" alt="Login Page"/>
+</a>
 
-<tr>
-<td align="center">
-ChatPro Page<br>
-<img src="images/chatpro.png" width="260">
-</td>
+<a href="Sign up page.png">
+<img src="Sign up page.png" width="30%" alt="Signup Page"/>
+</a>
 
-<td align="center">
-Sidebar<br>
-<img src="images/sidebar.png" width="260">
-</td>
-</tr>
-</table>
+<a href="IT-Chat bot page.png">
+<img src="IT-Chat bot page.png" width="30%" alt="Chatbot"/>
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="Chat pro page.png">
+<img src="Chat pro page.png" width="30%" alt="ChatPro"/>
+</a>
+
+<a href="Side bar.png">
+<img src="Side bar.png" width="30%" alt="Sidebar"/>
+</a>
+
+</p>
