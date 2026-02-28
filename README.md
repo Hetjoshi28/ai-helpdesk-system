@@ -48,16 +48,36 @@ ai-helpdesk-system
 └── README.md
 ```
 
-sign up page
-<img width="1165" height="671" alt="Sign up page" src="https://github.com/user-attachments/assets/ba897829-aee1-4973-94e1-41850a407c84" />
+ 📸 Project Screenshots
 
-Log in page
-<img width="1184" height="691" alt="Login page" src="https://github.com/user-attachments/assets/67b6378e-9059-4179-add0-ef21de6e64c1" />
+<table>
+<tr>
+<td align="center">
+Login Page<br>
+<img src="images/login.png" width="260">
+</td>
 
-IT- Chat bot page
-<img width="1370" height="774" alt="IT-Chat bot page" src="https://github.com/user-attachments/assets/61c444d3-bc44-4090-8b28-358af7c2abce" />
+<td align="center">
+Sign Up Page<br>
+<img src="images/signup.png" width="260">
+</td>
 
+<td align="center">
+Chatbot<br>
+<img src="images/chatbot.png" width="260">
+</td>
+</tr>
 
+<tr>
+<td align="center">
+Chatbot Search<br>
+<img src="images/search.png" width="260">
+</td>
 
-
+<td align="center">
+ChatPro Mode<br>
+<img src="images/chatpro.png" width="260">
+</td>
+</tr>
+</table>
 
