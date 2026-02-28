@@ -50,6 +50,7 @@ ai-helpdesk-system
 
  📸 Project Screenshots
 
+
 <table>
 <tr>
 <td align="center">
@@ -63,21 +64,20 @@ Sign Up Page<br>
 </td>
 
 <td align="center">
-Chatbot<br>
+Chatbot Page<br>
 <img src="images/chatbot.png" width="260">
 </td>
 </tr>
 
 <tr>
 <td align="center">
-Chatbot Search<br>
-<img src="images/search.png" width="260">
+ChatPro Page<br>
+<img src="images/chatpro.png" width="260">
 </td>
 
 <td align="center">
-ChatPro Mode<br>
-<img src="images/chatpro.png" width="260">
+Sidebar<br>
+<img src="images/sidebar.png" width="260">
 </td>
 </tr>
 </table>
-
