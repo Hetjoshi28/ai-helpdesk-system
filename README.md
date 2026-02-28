@@ -14,33 +14,36 @@ It helps users troubleshoot technical problems, ask questions, analyze files, an
  🌐 Google search powered responses  
  ⚡ Fast local deployment using Flask
 
+
  🏗 Project Structure
- 
- ai-helpdesk-system
+
+```
+ai-helpdesk-system
 │
 ├── backend
-│ ├── app.py
-│ ├── routes.py
-│ ├── chatbot_engine.py
-│ ├── gemini_service.py
-│ └── ticket_system.py
+│   ├── app.py
+│   ├── routes.py
+│   ├── chatbot_engine.py
+│   ├── gemini_service.py
+│   └── ticket_system.py
 │
 ├── frontend
-│ ├── index.html
-│ ├── css
-│ │ └── style.css
-│ └── js
-│ └── script.js
+│   ├── index.html
+│   ├── css
+│   │   └── style.css
+│   └── js
+│       └── script.js
 │
 ├── database
-│ └── helpdesk.db
+│   └── helpdesk.db
 │
 ├── data
-│ └── knowledge_base.json
+│   └── knowledge_base.json
 │
 ├── prompts
-│ └── system_prompt.txt
+│   └── system_prompt.txt
 │
 ├── .env.example
 ├── requirements.txt
-└── README.md 
+└── README.md
+```
