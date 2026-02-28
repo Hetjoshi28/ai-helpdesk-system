@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
@@ -20,6 +21,10 @@ def get_system_prompt():
     except Exception:
         return "You are a professional IT helpdesk assistant. Provide clear troubleshooting steps."
 
+def get_date_context():
+    current_time = datetime.now().strftime('%A, %B %d, %Y at %I:%M %p')
+    return f"\n\n[SYSTEM NOTE: The current real-time date and time is {current_time}. Always use this date if asked about the current day, month, year, or time.]"
+
 def get_gemini_response(user_message):
     try:
         if not client:
@@ -29,7 +34,7 @@ def get_gemini_response(user_message):
             model='gemini-2.5-flash',
             contents=user_message,
             config=types.GenerateContentConfig(
-                system_instruction=get_system_prompt(),
+                system_instruction=get_system_prompt() + get_date_context(),
             )
         )
         return response.text
@@ -65,13 +70,29 @@ def get_chatpro_response(user_message, file_path=None, history=None):
         if full_message:
             content_parts.append(full_message)
             
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=content_parts,
-            config=types.GenerateContentConfig(
-                system_instruction="You are ChatPro, an advanced, highly capable general AI assistant. You help users with coding, analysis, creative writing, research, and any general topics."
+        chatpro_instruction = "You are ChatPro, an advanced, highly capable general AI assistant. You help users with coding, analysis, creative writing, research, and any general topics."
+        
+        # Format the system instructions
+        system_rules = chatpro_instruction + get_date_context()
+        
+        if uploaded_file is None:
+            # Only enable Google Search Grounding if no file is uploaded (avoids API conflicts)
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=full_message,
+                config=types.GenerateContentConfig(
+                    system_instruction=system_rules,
+                    tools=[{"googleSearch": {}}]
+                )
             )
-        )
+        else:
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=content_parts,
+                config=types.GenerateContentConfig(
+                    system_instruction=system_rules,
+                )
+            )
         
         # We delete the file immediately after getting the response as per instructions
         if uploaded_file:
